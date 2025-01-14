@@ -9,12 +9,12 @@ while True:
     diff = input("choose difficulty : baby, easy, medium, hard, insane : ")
     if diff == 'devmode':
         diff = 10001
-    if diff == 'baby' :
+    elif diff == 'baby' :
         diff = 0
     elif diff == 'easy':
         diff = 1
     elif diff == 'medium':
-        diff == 2
+        diff = 2
     elif diff == 'hard':
         diff = 3
     elif diff == 'insane':
