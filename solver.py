@@ -45,6 +45,11 @@ def print_board(board):
                 print("-", end= " ")
             else :
                 print(board[i][j], end=" ")
+
+            if j in [2, 5]:
+                print("|", end = ' ')
+            if i in [2, 5] and j == 8:
+                print("\n=====================", end = "")
         print()
 
 board = [
