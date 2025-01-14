@@ -41,13 +41,24 @@ while True:
         solver.print_board(board)
         if w:
             w = False
+            os.system('cls')
+            solver.solve_sudoku(board)
+            solver.print_board(board)
             break
+
         move = input()
+        if not move :
+            continue
         if move.lower() == 'clear':
             r = True
             continue
         elif move.lower() == 'new':
             break
+        elif move.lower() == 'solve':
+            w = True 
+            continue
+
+        
         row, col, number = move.split(" ")
         if not (MOVE(start_board, board, int(row), int(col), int(number))):
             f == True
