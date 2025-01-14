@@ -34,6 +34,7 @@ baby, easy, medium, hard, insane
 
 # Example
 
+```py
 
 - 2 8 | 5 - - | 4 1 7
 - 3 7 | 6 1 4 | 5 - -
@@ -46,3 +47,7 @@ baby, easy, medium, hard, insane
 2 - 1 | - 3 9 | 7 4 -
 - 7 3 | 4 6 - | 9 - -
 - 9 - | - 5 2 | - 6 -
+
+
+
+```
